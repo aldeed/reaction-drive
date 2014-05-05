@@ -1,0 +1,96 @@
+/* CSS declarations go here */
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto:400,300italic,300,500,700|Montserrat:400,700);
+
+body,html { font-family: ‘Roboto’, Arial, serif; font-weight: 300; color: #fff; }
+body {
+  background: url(../bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 { font-family: 'Montserrat', Arial, serif;
+ line-height: 1.08em;
+ line-spacing: 2px;
+ letter-spacing: 1px;
+ font-weight: 300;
+
+}
+.logo-row {
+  padding-top:20px;
+  padding-left: 10px;
+}
+.vision-statement-block {
+  padding-top: 20%;
+}
+.vision-block {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.vision-block li{
+  padding: 15px 20px 20px 20px;
+}
+
+.vision-block a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.vision-block a:hover{
+  color: #C7C2C2;
+  text-decoration: none;
+
+}
+
+.vision-block button{
+  margin-top: -6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 50px;
+  width: 185px;
+  height: 42px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  color: #7f7f80;
+  letter-spacing: 1px;
+}
+.navbar-default a {
+  color: #7f7f80;
+}
+
+.explore-now-container {
+  display: none;
+  padding: 10px;
+  margin: auto;
+}
+
+.explore-now-block {
+  margin-top: 20%;
+  padding: 30px;
+  min-height: 250px;
+  height: 35%;
+  background-color: rgba(26, 24, 24, 0.47);
+  letter-spacing: 1px;
+  border-radius: 6px;
+  position: relative;
+  text-align: center;
+}
+
+
+#alpha-alert {
+  background: red;
+  padding: 10px;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+#explore-close {
+  padding: 10px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
