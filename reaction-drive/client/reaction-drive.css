@@ -1,5 +1,6 @@
 /* CSS declarations go here */
 @import url(http://fonts.googleapis.com/css?family=Montserrat|Roboto:400,500,700,300,100|Old+Standard+TT:400italic);
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
 
 body,html { height:100%; font-family: ‘Roboto’, Arial, serif; font-weight: 300; color: #fff; }
 /*body {
@@ -80,6 +81,10 @@ h1, h2 {
   color: #7f7f80;
 }
 
+#ongolink {
+  position: absolute;
+  bottom: 13px;
+}
 .explore-now-container {
   display: none;
   margin: auto;

@@ -2,10 +2,6 @@
   <title>Reaction Commerce</title>
 </head>
 
-<body>
-
-</body>
-
 <template name="mainLayout">
 <div class="page-container">
   <div class="container-fluid banner-row">
@@ -20,9 +16,7 @@
   </div>
   {{> yield}}
   <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-    <div class="container">
-      <a href="http://ongoworks.com" target="_blank" class="">Ongo Works, Inc.</a>
-    </div>
+  {{>footercontents}}
   </nav>
 </div>
 </template>
@@ -52,8 +46,6 @@
 </div>
 </template>
 
-
-
 <template name='explorenow'>
 <div class="explore-now-container">
   <div class="explore-now-block">
@@ -73,4 +65,19 @@
     </form>
   </div>
 </div>
+</template>
+
+<template name="footercontents">
+  <div class="container">
+    <a href="http://ongoworks.com" target="_blank" id="ongolink">Ongo Works, Inc.</a>
+    <div class="pull-right">
+      <a href="mailto:hello@ongoworks.com"><i class="fa fa-envelope fa-3x"></i></a>
+      <a href="https://github.com/ongoworks/reaction" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+      <a href="https://www.linkedin.com/groups/Reaction-Commerce-6654861" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+      <a href="https://twitter.com/getreaction" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+      <a href="https://www.facebook.com/reactioncommerce" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="https://google.com/+Reactioncommerce" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a>
+      <a href="https://trello.com/b/ffwTH3tc/reaction-commerce" target="_blank"><i class="fa fa-trello fa-3x"></i></a>
+  </div>
+  </div>
 </template>
