@@ -1,0 +1,94 @@
+<template name="pageLayout">
+  <div class="container-fluid banner-row">
+    <div class="row page-logo-row">
+      <a href="/"><img src="Reaction-Logo-black.svg" height="45" width="150"></a>
+    </div>
+    <div class="github-fork-ribbon-wrapper right">
+      <div class="github-fork-ribbon">
+          <a href="https://github.com/ongoworks/reaction">Find us on GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div>
+  {{> yield}}
+  </div>
+  <nav class="navbar navbar-default navbar-bottom" role="navigation">
+    <div class="container">
+      <a href="http://ongoworks.com" target="_blank" class="">Ongo Works, Inc.</a>
+    </div>
+  </nav>
+</template>
+
+
+<template name="vision">
+
+<div class="jumbotron vision-jumbotron">
+  <div class="container">{{>explorenow}}</div>
+  <div id="vision-jumbotron-wrapper">
+    <h1>Explore the Reaction vision</h1>
+    <p>the vision for building the most elegant commerce platform ever. completely open sourced.</p>
+    <div class="vision-jumbotron-actions">
+      <button class="btn btn-default" id="explore-now">Explore now</button>
+      <div id="explore-now-video">Watch demo <i class="glyphicon glyphicon-facetime-video"></i></div>
+    </div>
+  </div>
+</div>
+
+<div class="vision-page">
+  <div class="container">
+    <div class="row vision-page-header">
+      <div class="col-md-4">
+        <img src="http://placehold.it/450x450" class="img-responsive">
+        <h2>SIMPLY POWERFUL</h2>
+        Reactive merchandising. Hashtag taxonomy and social analytics. Actionable data interpretation.
+      </div>
+      <div class="col-md-4">
+        <img src="http://placehold.it/450x450" class="img-responsive">
+        <h2>MODERN PLATFORM</h2>
+        The first ever ecommerce platform using the latest technologies, like Node.js and Meteor.
+      </div>
+      <div class="col-md-4">
+        <img src="http://placehold.it/450x450" class="img-responsive">
+        <h2>DEVSIGNER FRIENDLY</h2>
+        Reaction Commerce is fully open sourced and devsigner friendly so you can grow easily.
+      </div>
+    </div>
+    <hr>
+    <span class="features-title"> current features and vision features </span>
+    <hr>
+    <div class="container-fluid vision-features">
+      <div class="col-md-3 vision-feature-box">
+        <span id="alpha-ribbon">Alpha </span>
+        <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+      </div>
+
+      <div class="col-md-3 vision-feature-box">
+      <span id="alpha-ribbon">Alpha </span>
+      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+      </div>
+
+      <div class="col-md-3 vision-feature-box">
+        <span id="alpha-ribbon">Alpha </span>
+        <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+      </div>
+
+      <div class="col-md-3 vision-feature-box">
+      <span id="alpha-ribbon">Alpha </span>
+      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+      </div>
+
+      <div class="col-md-3 vision-feature-box">
+      <span id="vision-ribbon">Vision</span>
+      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+      </div>
+
+      <div class="col-md-3 vision-feature-box">
+      <span id="vision-ribbon">Vision</span>
+      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+</template>
+

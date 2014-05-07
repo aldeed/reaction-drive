@@ -1,0 +1,126 @@
+/*body{
+  background: url(../tour.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+h1,h2 {
+
+}
+.page-logo-row {
+  padding-top:20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0 3px 3px -2px gray;
+  -moz-box-shadow: 0 3px 3px -2px gray;
+  box-shadow: 0 3px 3px -2px gray;
+}
+
+.vision-jumbotron {
+  background: url(../bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+  text-align: center;
+  padding-top: 120px;
+}
+.vision-jumbotron h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.vision-jumbotron p {
+  font-style: italic;
+  font-family: 'Old Standard TT', serif;
+}
+
+#vision-jumbotron-wrapper button{
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 50px;
+  width: 185px;
+  height: 42px;
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+.vision-jumbotron-actions {
+  padding: 15px;
+}
+
+#explore-now-video {
+  margin-top: 10px;
+  line-height: 42px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.vision-page {
+  color: gray;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: .09px;
+}
+.vision-page-header {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.vision-page-header h2 {
+  letter-spacing: normal;
+  padding-top: 12px;
+}
+.vision-features {
+  padding-top: 40px;
+  padding-left: 20px;
+  text-align: left;
+}
+.features-title {
+  font-style: italic;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.2em;
+}
+
+.vision-feature-box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 15px;
+}
+.vision-feature-box h4 small {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#alpha-ribbon {
+  background-color: rgb(113, 197, 21);
+  border-radius: 50%;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: -18px;
+  text-transform: lowercase;
+}
+
+#vision-ribbon {
+  background-color: #7f7f80;
+  border-radius: 50%;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: -18px;
+  text-transform: lowercase;
+}

@@ -1,8 +1,18 @@
 /* CSS declarations go here */
-@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto:400,300italic,300,500,700|Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Roboto:400,500,700,300,100|Old+Standard+TT:400italic);
 
-body,html { font-family: ‘Roboto’, Arial, serif; font-weight: 300; color: #fff; }
-body {
+body,html { height:100%; font-family: ‘Roboto’, Arial, serif; font-weight: 300; color: #fff; }
+/*body {
+  background: url(../bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+.page-container {
+  height: 100%;
   background: url(../bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,9 +20,9 @@ body {
   background-size: cover;
 }
 
-h1 { font-family: 'Montserrat', Arial, serif;
+h1, h2 {
+ font-family: 'Montserrat', Arial, serif;
  line-height: 1.08em;
- line-spacing: 2px;
  letter-spacing: 1px;
  font-weight: 300;
 
@@ -21,7 +31,7 @@ h1 { font-family: 'Montserrat', Arial, serif;
   padding-top:20px;
   padding-left: 10px;
 }
-.vision-statement-block {
+.index-vision-wrapper {
   padding-top: 20%;
 }
 .vision-block {
@@ -55,23 +65,29 @@ h1 { font-family: 'Montserrat', Arial, serif;
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+}
+.navbar-bottom, .navbar-fixed-bottom {
+  margin-top: 250px;
+  margin-bottom: 0px;
+  border-radius: 0;
   color: #7f7f80;
   letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 100;
 }
+
 .navbar-default a {
   color: #7f7f80;
 }
 
 .explore-now-container {
   display: none;
-  padding: 10px;
   margin: auto;
 }
 
 .explore-now-block {
-  margin-top: 20%;
   padding: 30px;
-  min-height: 250px;
+  min-height: 230px;
   height: 35%;
   background-color: rgba(26, 24, 24, 0.47);
   letter-spacing: 1px;
