@@ -36,17 +36,17 @@
   <div class="container">
     <div class="row vision-page-header">
       <div class="col-md-4">
-        <img src="http://placehold.it/450x450" class="img-responsive">
+        <img src="simply-powerful.png" class="img-responsive">
         <h2>SIMPLY POWERFUL</h2>
         Reactive merchandising. Hashtag taxonomy and social analytics. Actionable data interpretation.
       </div>
       <div class="col-md-4">
-        <img src="devsigner-friendly.jpg" class="img-responsive">
+        <img src="devsigner-friendly.png" class="img-responsive">
         <h2>DEVSIGNER FRIENDLY</h2>
         Reaction Commerce is fully open sourced and devsigner friendly so you can grow easily.
       </div>
       <div class="col-md-4">
-        <img src="http://placehold.it/450x450" class="img-responsive grayscale">
+        <img src="modern-platform.png" class="img-responsive grayscale">
         <h2>MODERN PLATFORM</h2>
         The first ever ecommerce platform using the latest technologies, like Node.js and Meteor.
       </div>
@@ -54,36 +54,14 @@
     <hr>
     <span class="features-title"><i class="fa fa-quote-left"></i>if we had a perfect list of features for a new commerce platform, what would they be? <i class="fa fa-quote-right"></i></span>
     <hr>
+
     <div class="container-fluid vision-features">
-      <div class="col-md-3 vision-feature-box">
-        <span id="alpha-ribbon">Alpha </span>
-        <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
+    {{#each featureList}}
+      <div class="col-md-4 vision-feature-box">
+        <span id="{{statusClass}}">{{status}} </span>
+        <h4>{{feature}}<br><small>{{description}}</small></h4>
       </div>
-
-      <div class="col-md-3 vision-feature-box">
-      <span id="alpha-ribbon">Alpha </span>
-      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
-      </div>
-
-      <div class="col-md-3 vision-feature-box">
-        <span id="alpha-ribbon">Alpha </span>
-        <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
-      </div>
-
-      <div class="col-md-3 vision-feature-box">
-      <span id="alpha-ribbon">Alpha </span>
-      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
-      </div>
-
-      <div class="col-md-3 vision-feature-box">
-      <span id="vision-ribbon">Vision</span>
-      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
-      </div>
-
-      <div class="col-md-3 vision-feature-box">
-      <span id="vision-ribbon">Vision</span>
-      <h4>Feature<br><small>one liner sentence describing said feature's coolness</small></h4>
-      </div>
+    {{/each}}
 
     </div>
   </div>
