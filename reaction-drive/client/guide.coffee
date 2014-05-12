@@ -7,7 +7,7 @@ Template.guide.helpers
     Session.get "docPage"
 
 Template.guide.events
-  'click .guide-nav-item': (event,template) ->
+  'click .guide-nav-item,.guide-sub-nav-item': (event,template) ->
     Session.set "docPage", ""
     $('li').removeClass("selected")
     $(event.target).parent().addClass("selected")

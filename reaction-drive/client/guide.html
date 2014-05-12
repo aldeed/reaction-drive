@@ -24,6 +24,7 @@
             <li><a href="#" class="guide-sub-nav-item" data-repo="reaction" data-org="ongoworks" data-doc="docs/payment.md">Payment Methods</a></li>
             <li><a href="#" class="guide-sub-nav-item" data-repo="reaction" data-org="ongoworks" data-doc="docs/taxes.md">Tax Calculation</a></li>
             <li><a href="#" class="guide-nav-item" data-repo="reaction-core" data-org="ongoworks">Developer</a></li>
+            <li><a href="#" class="guide-sub-nav-item" data-repo="reaction-core" data-org="ongoworks" data-doc="docs/installation.md">Installation</a></li>
             <li><a href="#" class="guide-sub-nav-item" data-repo="reaction-core" data-org="ongoworks" data-doc="docs/conventions.md">Conventions</a></li>
             <li><a href="#" class="guide-sub-nav-item" data-repo="reaction-core" data-org="ongoworks" data-doc="docs/themes.md">Themes</a></li>
             <li><a href="#" class="guide-sub-nav-item" data-repo="reaction-core" data-org="ongoworks" data-doc="docs/templates.md">Templates</a></li>
@@ -43,7 +44,10 @@
     {{#if displayDocs}}
       {{#markdown}}{{displayDocs}}{{/markdown}}
     {{else}}
-      Loading docs from Github...
+    <div class="github-spin">
+      <h1> Grabbing docs for you from Github</h1>
+      <img src="giphy.gif">
+    </div>
     {{/if}}
     </div>
 
