@@ -1,0 +1,38 @@
+<template name="pageLayout">
+  <div class="container-fluid banner-row">
+    <div class="row page-logo-row">
+      <a href="/"><img src="Reaction-Logo-black.svg" height="45" width="150"></a>
+    </div>
+    <div class="github-fork-ribbon-wrapper right">
+      <div class="github-fork-ribbon">
+          <a href="https://github.com/ongoworks/reaction">Find us on GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div>
+  {{> yield}}
+  </div>
+  <nav class="navbar navbar-default navbar-bottom" role="navigation">
+    {{>footercontents}}
+  </nav>
+</template>
+
+
+<template name="mainLayout">
+<div class="page-container">
+  <div class="container-fluid banner-row">
+    <div class="row logo-row">
+      <a href="/"><img src="Reaction-Logo-white.svg" height="45" width="150"></a>
+    </div>
+    <div class="github-fork-ribbon-wrapper right">
+      <div class="github-fork-ribbon">
+          <a href="https://github.com/ongoworks/reaction">Find us on GitHub</a>
+      </div>
+    </div>
+  </div>
+  {{> yield}}
+  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  {{>footercontents}}
+  </nav>
+</div>
+</template>

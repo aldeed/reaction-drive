@@ -1,30 +1,10 @@
-<template name="pageLayout">
-  <div class="container-fluid banner-row">
-    <div class="row page-logo-row">
-      <a href="/"><img src="Reaction-Logo-black.svg" height="45" width="150"></a>
-    </div>
-    <div class="github-fork-ribbon-wrapper right">
-      <div class="github-fork-ribbon">
-          <a href="https://github.com/ongoworks/reaction">Find us on GitHub</a>
-      </div>
-    </div>
-  </div>
-  <div>
-  {{> yield}}
-  </div>
-  <nav class="navbar navbar-default navbar-bottom" role="navigation">
-    {{>footercontents}}
-  </nav>
-</template>
-
-
 <template name="vision">
 
 <div class="jumbotron vision-jumbotron">
   <div class="container">{{>explorenow}}</div>
   <div id="vision-jumbotron-wrapper">
     <h1>Explore the Reaction vision</h1>
-    <p>the vision for building the most elegant commerce platform ever. completely open source.</p>
+    <p>the vision for building the most modern commerce platform ever. completely open source.</p>
     <div class="vision-jumbotron-actions">
       <button class="btn btn-default" id="explore-now">Explore now</button>
       <div id="explore-now-video">Watch demo <i class="glyphicon glyphicon-facetime-video"></i></div>
@@ -35,29 +15,29 @@
 <div class="vision-page">
   <div class="container">
     <div class="row vision-page-header">
-      <div class="col-md-4">
-        <img src="simply-powerful.png" class="img-responsive">
+      <div class="col-sm-4">
+        <img src="simply-powerful.png" class="img-responsive hidden-xs">
         <h2>SIMPLY POWERFUL</h2>
         Reactive merchandising. Hashtag taxonomy and social analytics. Actionable data interpretation.
       </div>
-      <div class="col-md-4">
-        <img src="devsigner-friendly.png" class="img-responsive">
+      <div class="col-sm-4">
+        <img src="devsigner-friendly.png" class="img-responsive hidden-xs">
         <h2>DEVSIGNER FRIENDLY</h2>
         Reaction Commerce is fully open sourced and devsigner friendly so you can grow easily.
       </div>
-      <div class="col-md-4">
-        <img src="modern-platform.png" class="img-responsive grayscale">
+      <div class="col-sm-4">
+        <img src="modern-platform.png" class="img-responsive hidden-xs">
         <h2>MODERN PLATFORM</h2>
         The first ever ecommerce platform using the latest technologies, like Node.js and Meteor.
       </div>
     </div>
     <hr>
-    <span class="features-title"><i class="fa fa-quote-left"></i>if we had a perfect list of features for a new commerce platform, what would they be? <i class="fa fa-quote-right"></i></span>
+    <span class="features-title"><i class="fa fa-quote-left"></i>&nbsp;if we had a dream list of features for a new commerce platform, what would they be?&nbsp;<i class="fa fa-quote-right"></i></span>
     <hr>
 
     <div class="container-fluid vision-features">
     {{#each featureList}}
-      <div class="col-md-4 vision-feature-box">
+      <div class="col-sm-6 col-md-4 col-lg-3 vision-feature-box">
         <span id="{{statusClass}}">{{status}} </span>
         <h4>{{feature}}<br><small>{{description}}</small></h4>
       </div>

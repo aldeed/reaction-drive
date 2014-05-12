@@ -3,25 +3,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<template name="mainLayout">
-<div class="page-container">
-  <div class="container-fluid banner-row">
-    <div class="row logo-row">
-      <a href="/"><img src="Reaction-Logo-white.svg" height="45" width="150"></a>
-    </div>
-    <div class="github-fork-ribbon-wrapper right">
-      <div class="github-fork-ribbon">
-          <a href="https://github.com/ongoworks/reaction">Find us on GitHub</a>
-      </div>
-    </div>
-  </div>
-  {{> yield}}
-  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-  {{>footercontents}}
-  </nav>
-</div>
-</template>
-
 <template name="index">
 <div class="container index-vision-wrapper">
     {{> explorenow}}
@@ -41,7 +22,7 @@
   <ul class="list-inline vision-block">
   <li><a href="http://blog.reactioncommerce.com">Thoughts</a></li>
   <li><a href="{{pathFor 'vision'}}">Vision</a></li>
-  <li><a href="#">Guide</a></li>
+  <li><a href="{{pathFor 'guide'}}">Guide</a></li>
   <li><button class="btn btn-default" id="explore-now">Explore now</button></li>
   </ul>
 </div>
