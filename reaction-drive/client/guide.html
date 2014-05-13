@@ -40,9 +40,13 @@
   </div>
 
     <div class="col-sm-9 guide">
-    {{fetchDocs org="ongoworks" repo="reaction" }}
+    {{fetchDocs org="ongoworks" repo="reaction" doc="docs/index.md" }}
     {{#if displayDocs}}
       {{#markdown}}{{displayDocs}}{{/markdown}}
+      <div class="row text-center page-nav">
+        {{#unless isFirst displayDocs}}<button id="prev-doc" class="btn btn-default">Previous</button>{{/unless}}
+        {{#unless isLast displayDocs}}<button id="next-doc" class="btn btn-default">Next</button>{{/unless}}
+      </div>
     {{else}}
     <div class="github-spin">
       <h1> Grabbing docs for you from Github</h1>

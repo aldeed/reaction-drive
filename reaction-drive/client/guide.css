@@ -59,3 +59,10 @@
   padding-top: 10px;
   width: 500px;
 }
+
+.page-nav {
+  padding-top: 50px;
+}
+.page-nav button {
+  margin: 3px;
+}
